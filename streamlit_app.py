@@ -2,6 +2,7 @@ from openai import OpenAI
 import streamlit as st
 
 st.title("Nidhi's Personal Content Creator Minion")
+st.image('typing-image.jpeg', caption='Candid capture of Nidhi and her team of engineers hard at work')
 
 client = OpenAI(api_key=st.secrets["OPENAI_API_KEY"])
 
